@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Dancing+Script&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Fortune Cookie</title>
+</head>
+<body>
+  <main>
+    <div id="fortuneCookie" class="screen1">
+  <h1>What's your fortune today?</h1>
+  <p>Open the cookie to find out!</p>
+  <div id="cookie">
+    <img src="./fortunecookie.svg" alt="picture of a fortune cookie">
+  </div>
+ 
+    </div>
+  
+
+    <div id="openCookie" class="screen2 hide">
+      <h1>Here is your fortune today:</h1>
+      <div id="fortune">
+        Each time you break your own<br>
+        boundaries to ensure that<br>
+        someone else likes you, you<br>
+        like yourself a little less.
+      </div>
+      <img id=img2 src="./openfortunecookie.svg" alt="Opened fortune cookie">
+        <button id="buttonReset">Open another fortune</button>
+    </div>
+  </main>
+  <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+root{
+  font-size: 52.54%;
+}
+body,.fortunecookie{
+  background:linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+#cookie:hover{
+animation:  shake 0.5s;
+animation-iteration-count: infinite;
+cursor: pointer;
+}
+#cookie{
+  padding: 2rem;
+  width: 25rem;
+  height: 15rem;
+  object-fit:contain;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+body{
+  cursor: pointer;
+  animation: gradient 10s ease infinite;
+}
+
+body {
+  background: linear-gradient(45deg, #190361, #bb00ff);
+ 
+  background-size: 200% 200%;
+}
+
+@keyframes gradient {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  height: min(42.8rem 90%);
+  width: 42.4rem;
+  border-width: 16.9rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 8.4rem;
+  padding-left: 8.4rem;
+  border-radius: .5rem;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+  
+}
+
+
+h1{
+  padding-bottom: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  }
+
+#fortuneCookie{
+  padding-bottom: 4rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.5rem;
+}
+/*screen2*/
+
+.hide{
+  display:none;
+}
+
+
+#fortune{
+width: 29.3rem;
+height: fit-content;
+padding: 1rem;
+background: #E4EDF1;
+box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+font-family: 'Dancing Script', cursive;
+font-size: 2.4rem;
+font-weight: 400;
+animation: downtop 700ms 300ms reverse backwards;
+}
+
+@keyframes downtop{
+100%{
+  opacity: 0;
+  transform:translateY(1)
+}
+0%{
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+#img2{
+  width: 25rem;
+  height: 15rem;
+  object-fit:contain;
+}
+button{
+font-family: 'DM Sans', sans-serif;
+font-weight: 700;
+color: white;
+font-size: 1.5rem;
+padding: 0.5rem;
+width: 17.4rem;
+height: 5.2rem;
+background: #FF9500;
+border-radius: .4rem;
+border-color: white;
+
+}
