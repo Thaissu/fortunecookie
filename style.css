@@ -7,7 +7,7 @@ root{
   font-size: 52.54%;
 }
 body,.fortunecookie{
-  background:linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+  background:linear-gradient(45deg, #190361 0%, #BB00FF 100%), infinite;
   height: 100vh;
   display: grid;
   place-items: center;
